@@ -20,7 +20,7 @@ const QuotationsPage = () => {
   return (
     <div>
       <h1>Quotations</h1>
-      <ul>
+      <ul>0
         {quotations.map((q) => (
           <li key={q.id}>
             {q.total} - {q.valid_time}
